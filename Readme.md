@@ -10,6 +10,8 @@
 
 ### Parcial I: Sábado 16 de septiembre
 
+<br>
+
 ![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/8b843873-c9cf-4e47-977b-6f358d7ff7af)
 
 
