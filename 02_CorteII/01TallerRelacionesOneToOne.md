@@ -5,6 +5,7 @@ Para una biblioteca que permita consultar el listado de libros y crear autores s
 ![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/66330c49-06e4-4398-a685-4a366099cac5)
 
 **/**: Petición GET que obtiene el listado de libros con autor
+
 **/{idLibro}**  Petición POST recibe el idLibro y en RequesBody los datos del autor. Guarda la relación entre libro y autor, en la tabla autor. 
 
 ## Dependencias del proyecto
@@ -29,3 +30,18 @@ INSERT INTO LIBROS (TITULO) VALUES('LA MEJOR COCINA');
 
 
 ```
+
+## Redundancia ciclica en la serialización JSO
+
+Para evitar la reducancia ciclica en una relación **OneToOne** se debe hacer uso el de **@JsonIgnoreProperties**. Por ejemplo tengo la relación entre Estudiante y Matricula. 
+
+**EstudianteEntity**
+
+![Uploading image.png…]()
+
+
+**MatriculaEntity**
+![Uploading image.png…]()
+
+
+
