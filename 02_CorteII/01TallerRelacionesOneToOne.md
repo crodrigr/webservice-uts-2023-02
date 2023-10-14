@@ -33,7 +33,7 @@ INSERT INTO LIBROS (TITULO) VALUES('LA MEJOR COCINA');
 
 ```
 
-## Redundancia ciclica en la serialización JSO
+## Redundancia ciclica en la serialización JSON
 
 Para evitar la reducancia ciclica en una relación **OneToOne** se debe hacer uso el de **@JsonIgnoreProperties**. Por ejemplo tengo la relación entre Estudiante y Matricula. 
 
