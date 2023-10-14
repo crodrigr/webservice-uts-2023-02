@@ -41,6 +41,7 @@ Para evitar la reducancia ciclica en una relación **OneToOne** se debe hacer us
 
 
 **MatriculaEntity**
+
 ![Uploading image.png…]()
 
 
