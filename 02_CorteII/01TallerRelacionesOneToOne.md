@@ -16,3 +16,16 @@ Para una biblioteca que permita consultar el listado de libros y crear autores s
 
 
 ![image](https://github.com/crodrigr/programacion-java-2023-02/assets/31961588/be9e08c5-a147-4122-98d5-555b0c98a8f8)
+
+
+## Ejemplo import.sql
+
+```sql
+
+INSERT INTO LIBROS (TITULO) VALUES('CIEN AÑOS DE SOLEDAD');
+INSERT INTO LIBROS (TITULO) VALUES('PROGRAMACION EN PYTHON');
+INSERT INTO LIBROS (TITULO) VALUES('LA MEJOR COCINA');
+
+
+
+```
