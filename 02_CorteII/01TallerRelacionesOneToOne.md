@@ -21,6 +21,8 @@ Para una biblioteca que permita consultar el listado de libros y crear autores s
 
 ## Ejemplo import.sql
 
+El el directorio **resources** se crea un archivo **import.sql** para que ejecute scripts de  **sql** en la base datos. En este caso se va a realizar con insert into libros para tener data de libros en la tabla **libros**
+
 ```sql
 
 INSERT INTO LIBROS (TITULO) VALUES('CIEN AÑOS DE SOLEDAD');
