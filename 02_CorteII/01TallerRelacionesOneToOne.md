@@ -37,12 +37,14 @@ Para evitar la reducancia ciclica en una relación **OneToOne** se debe hacer us
 
 **EstudianteEntity**
 
-![Uploading image.png…]()
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/8ba094e4-f054-4ef0-bc1d-fae1950842f8)
+
 
 
 **MatriculaEntity**
 
-![Uploading image.png…]()
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/031b0cf1-1348-4b73-bebf-f5f6d3031383)
+
 
 
 
