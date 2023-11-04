@@ -28,31 +28,45 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 
 **Requisitos Funcionales:**
 
-1. **Gestión de Inmuebles:**
-   - Registrar nuevos inmuebles con detalles como tipo (piso nuevo, piso de ocasión, villa, casa, local), superficie en m2 y dirección completa.
-   - Especificar información adicional según el tipo de inmueble (por ejemplo, número de habitaciones, baños, características específicas).
-   - Para villas, registrar el tamaño de la parcela y la urbanización.
-   - Para locales, definir características como número de puertas de entrada, si es diáfano, si está acondicionado, etc.
-   - Asignar zonas de la ciudad a los inmuebles.
-   - Establecer disponibilidad para venta, alquiler o ambas opciones.
-   - Indicar el precio de venta y alquiler.
-   - Asignar un número de referencia y almacenar los datos del propietario (nombre y teléfono).
-   - Gestionar la ubicación de las llaves de los inmuebles en oficinas.
-   - Registrar visitas con detalles de los clientes, fecha, hora y comentarios.
+1. **Servicios de Gestión de Inmuebles:**
 
-**Requisitos Adicionales:**
+   - Crear un nuevo inmueble.
+   - Actualizar la información de un inmueble existente.
+   - Eliminar un inmueble.
+   - Obtener detalles de un inmueble por su número de referencia.
+   - Listar inmuebles disponibles para venta o alquiler.
+   - Asignar una ubicación de llaves a un inmueble.
+   - Registrar una visita a un inmueble.
 
-2. **Gestión de Oficinas:**
-   - Registrar oficinas con información de dirección y ubicación en el mapa de la ciudad.
+2. **Servicios de Gestión de Oficinas:**
 
-3. **Seguridad:**
-   - Implementar autenticación y autorización para proteger las operaciones de gestión de inmuebles y oficinas.
+   - Crear una nueva oficina.
+   - Actualizar la información de una oficina existente.
+   - Eliminar una oficina.
+   - Obtener detalles de una oficina por su ubicación.
+
+3. **Servicios de Gestión de Zonas de la Ciudad:**
+
+   - Crear una nueva zona de la ciudad.
+   - Actualizar la información de una zona existente.
+   - Eliminar una zona de la ciudad.
+   - Obtener detalles de una zona de la ciudad.
+
+4. **Servicios de Gestión de Clientes:**
+
+   - Crear un nuevo cliente.
+   - Actualizar la información de un cliente existente.
+   - Eliminar un cliente.
+   - Obtener detalles de un cliente por su identificación.
+   - Listar clientes que han realizado visitas.
+
 
 **Tecnologías Utilizadas:**
 - Spring Boot para el desarrollo del API RESTful.
 - Spring Data JPA para el acceso a la base de datos.
 - Base de datos relacional **H2** (opcinal por ejemplo, MySQL, PostgreSQL) para almacenar los datos.
-- Autenticación y autorización basada en tokens (por ejemplo, JWT).
+- Datos de pruebas. Debe tener un archivo **import.sql** con los scripts para crear datos iniciales de pruebas
+- Usar DTO. En la capa externa (controllers) no se debe exponer las clases entities, por lo tanto, se debe usar DTO, además de ser un buena práctica se soluciona el problema de loop de serializable y no es necesario de resolverlo con @JsonIgnoreProperties
 
 **Entregables:**
 - Código fuente del API desarrollado en Spring Boot.
@@ -61,4 +75,6 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 
 **Plazo de Entrega:**
 El proyecto debe ser entregado en [indicar plazo] semanas a partir del inicio.
+
+
 
