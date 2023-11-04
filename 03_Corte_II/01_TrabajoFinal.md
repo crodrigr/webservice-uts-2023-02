@@ -20,9 +20,6 @@ manifestado el cliente al respecto. La información se guarda actualmente en fic
 
 ## 2. Solución 🍾
 
-Claro, aquí tienes un enunciado para una solución de un API en Spring Boot para el problema proporcionado:
-
----
 
 ### Desarrollo de un API para la Gestión de Inmuebles en una Agencia Inmobiliaria
 
