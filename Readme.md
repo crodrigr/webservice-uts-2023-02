@@ -1,7 +1,6 @@
-# Curso Spring  Boot y Angular
-
+# Curso Spring  Boot 
   - [Relaciones jpa](https://www.adictosaltrabajo.com/2020/04/02/hibernate-onetoone-onetomany-manytoone-y-manytomany/)
-  - [Angular Tutorial](https://www.tutorialesprogramacionya.com/angularya/index.php?inicio=0)
+  - [Trabajo final](https://github.com/crodrigr/webservice-uts-2023-02/blob/master/03_Corte_II/01_TrabajoFinal.md)
 
 
 ## Fechas importantes
