@@ -247,16 +247,18 @@ En este ejemplo son tres los api's que se van a construir:
 
 El **Obtener el listado de estudiantes** se requiere obtener solo el Id de la matricula y el Id de la universidad. Si se utiliza el **EstudianteEntity**, se va a utilizar el tipo de dato MatriculaEntity y UniveridadEntity, la cual, a su vez, va carga la información nuevamente de estudiante creandose un loop. Por lo tanto, no es una buena practica. Por eso se propone un EstudianteDTO que sería la información que se va ha utilizar para retornar el listado de estudiante.
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/fb4f6ea4-cde8-44ba-bc8d-02845d719489)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/93844f93-87c5-4507-96b7-f34d5d64f460)
 
 
 El **Obtener la matricula por id** se requiere obtener una matricula por Id. Si se utilizara **MatriculaEntity** tiene como tipo de dato **EstudianteEntity**, el cual, trae los datos del estudiantes y su relaciones con universidad y matricual, la cual, crea un loop. Por eso se propone **MatriculaDTO**. Este DTO sirver para **crear matricula**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/f4af3bd3-896a-4680-8f46-65edd8e3756d)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/08ab130f-a5c0-41d3-a15d-1192b044a489)
+
 
 ### 4.1 EstudianteDTO
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/9d7b0fb0-5ef3-4012-90c8-e692323f3ee9)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/e519e8f5-9459-44b6-be7a-f19e751df503)
+
 
 <details>
 <summary>Código</summary>
@@ -285,7 +287,8 @@ public class EstudianteDTO {
 
 ### 4.2 MatriculaDTO
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/49079d3a-ec34-4e12-8ac9-eb4e9920aae6)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/fa883c8e-288e-49e3-9d0d-a6f8cbc6b398)
+
 
 <details>
 <summary>Código</summary>
@@ -316,7 +319,8 @@ public class MatriculaDTO {
 
 ### 4.3 UniversidadDTO
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/7b1648ed-57e2-4d37-86f4-c56567961bca)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/09fd4ae8-a54b-425c-9abc-f2f364026a17)
+
 
 <details>
 <summary>Código</summary>
@@ -349,7 +353,8 @@ Creación del **Bean** modelMapper. Se crea un paquete **config** para crear un 
 
 ## 5.1 ModelMapperConfig
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/05ce4eda-90ce-4c43-b620-4663747ab8ad)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/352da858-87e1-45a7-b279-6cc5094391fa)
+
 
 <details>
 <summary>Código</summary>
@@ -380,7 +385,8 @@ public class ModelMapperConfig {
 
 Esta clase convert va tener dos métodos:  **converEstudianteDTO** EstudianteEntity a un EstudianteDTO  y converEstudianteEntity: EstudianteDTO a EstudianteEntity 
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/5c114fd2-44bc-4259-b55d-5b80ecbfc81a)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/5136e2c8-f494-48c7-a3df-8174648fc1f6)
+
 
 <details>
 <summary>Código</summary>
@@ -433,7 +439,8 @@ public class EstudianteDTOConverte {
 
 Esta clase convert va tener dos métodos:  **converMatriculaDTO** MatriculaEntity a un MatriculaDTO y **convertMatriculaEntity**: MatriculaEntity a MatriculaDTO
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/ad39a759-43c7-48f3-aa37-812a35768108)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/a2303c2a-f041-41e8-aaff-2d58d448f349)
+
 
 
 <details>
@@ -484,7 +491,8 @@ public class MatriculaDTOConverte {
 
 ### 6.1 interface MatriculaService
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/22a487af-92cf-433d-99e1-1f653cb8703a)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/cd20a5e0-f360-42ad-bce1-d726149f41fa)
+
 
 <details>
 <summary>Código</summary>
@@ -513,7 +521,8 @@ public interface MatriculaService {
 
 ### 6.2 interface EstudianteService
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/09a6af3a-92c3-4660-8883-617609c29109)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/20512f9d-1ef9-40a4-a754-6e916c24d9e3)
+
 
 <details>
 <summary>Código</summary>
@@ -542,9 +551,9 @@ public interface EstudianteService {
 
 Se hace inyección de dependencia de **MatriculaDTOConverte** el método save recibe un **MatriculaDTO** en el punto 2 lo convierte un **MatriculaEntity** se guarda en la base datos y luego se convierte nuevamente a **MatriculaDTO** para dar la respuesta. 
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/e3f0ddd1-405f-4e1b-a8b9-b802460ac3b6)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/415ea0d5-1fc1-4921-9aad-52481d6a47f6)
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/420a94ff-bfd7-4a93-9aed-a18284bf9d83)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/d9f1eae8-9ae0-44b8-9517-1519a4beaf5c)
 
 <details>
 <summary>Código</summary>
@@ -623,8 +632,8 @@ public class MatriculaServiceImpl implements MatriculaService {
 
 ### 6.3 EstudianteServiceImpl
 
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/af6227ec-f951-4483-96a8-feffc8fde347)
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/822b5686-e4a1-4026-b1c5-7c2d9e50358d)
 
 <details>
 <summary>Código</summary>
@@ -693,7 +702,8 @@ public class EstudianteServiceImpl  implements EstudianteService{
 
 Los api's obtener el listado de matricula y  guardar una matricula, no exponen a **MatriculaEntity*** y lo hacen a través el **DTO**, los cuales, se adpanta a las necesidades de la información que se quiere usar como entrada y salida. 
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/f64efcb4-72d1-46c6-ae07-e6e52219264f)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/813faa00-4248-496a-a655-0694166edee3)
+
 
 <details>
 <summary>Código</summary>
@@ -744,7 +754,8 @@ public class MatriculaController {
 
 ### 7.1 EstudianteController
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/c2ce461d-10a9-4684-87eb-f4ca7e82f661)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/0b467b86-bf80-47bb-a020-fa7aa8567477)
+
 
 <details>
 <summary>Código</summary>
