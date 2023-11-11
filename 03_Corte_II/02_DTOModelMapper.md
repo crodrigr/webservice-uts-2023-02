@@ -16,13 +16,14 @@ Un ejemplo común es un DTO que se utiliza para transferir datos entre el contro
 
 En base al siguiente diagrama de clases de un ApiRestFull de una **Universidad** vamos aplicar DTO con **ModlerMapper**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/eed00377-6813-4e74-913b-ad6eee36025c)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/bbd4d411-1b53-4efa-b320-58e17b5c9db8)
+
 
 <br><br>
 
 ## 1. Dependencias: 
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/bb525e79-06c8-4bd0-b444-df5376e8f0c5)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/b382dd6a-c055-4d22-8261-df8c3fa22ab3)
 
 
 El proyecto maneja la siguiente estructura basica de paquetes:
@@ -55,7 +56,7 @@ En el paquete entities que está dentro de repositores se tiene las siguiente cl
 
 **UniversidadEntity**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/6eb56b5f-bd60-43d7-b691-4c208f15e16e)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/0eacb1cc-bd9e-4119-bcf9-315dd879459f)
 
 <details>
 <summary>Código</summary>
@@ -98,7 +99,7 @@ public class UniversidadEntity implements Serializable {
 
 **EstudianteEntity**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/f9eef48a-b3ab-4b77-953a-ac22f3ba0827)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/b59c1c66-8d48-47c0-a1e8-21556539fd0c)
 
 <details>
 <summary>Código</summary>
