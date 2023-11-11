@@ -2,6 +2,8 @@
   - [Relaciones jpa](https://www.adictosaltrabajo.com/2020/04/02/hibernate-onetoone-onetomany-manytoone-y-manytomany/)
   - [Trabajo final corte III-Entrega 2 de Diciembre](https://github.com/crodrigr/webservice-uts-2023-02/blob/master/03_Corte_II/01_TrabajoFinal.md)
 
+# Avances del proyecto final
+- 18 Nov entrega de capa de persistancia: clases entities, clases reposotories, scripts(import.sql)
 
 ## Fechas importantes
 
