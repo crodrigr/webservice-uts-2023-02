@@ -150,7 +150,8 @@ public class EstudianteEntity implements Serializable {
 
 **MatriculaEntity**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/78ebb584-9dbd-4acc-be37-7c5f93a665df)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/7be39074-4fa8-4c2f-b2fc-b95d18ca4472)
+
 
 <details>
 <summary>Código</summary>
@@ -181,7 +182,8 @@ public class MatriculaEntity implements Serializable{
 
 **EstudianteRepository**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/bff12f43-a6a3-4686-bbdc-dba10770e4bf)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/416daf69-c1ab-45c5-ba65-13d169a82096)
+
 
 <details>
 <summary>Código</summary>
@@ -207,7 +209,8 @@ public interface EstudianteRepository extends CrudRepository<EstudianteEntity,Lo
 
 **MatriculaRepository**
 
-![image](https://github.com/crodrigr/Apuntes/assets/31961588/8f18306e-3ee0-426a-ace5-019d5550b4fc)
+![image](https://github.com/crodrigr/webservice-uts-2023-02/assets/31961588/69a84d78-4d7d-4195-a048-d26856e81ae9)
+
 
 <details>
 <summary>Código</summary>
