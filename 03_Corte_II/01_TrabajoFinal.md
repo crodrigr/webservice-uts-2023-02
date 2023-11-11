@@ -69,12 +69,9 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 - Usar DTO. En la capa externa (controllers) no se debe exponer las clases entities, por lo tanto, se debe usar DTO, además de ser un buena práctica se soluciona el problema de loop de serializable y no es necesario de resolverlo con @JsonIgnoreProperties
 
 **Entregables:**
-- Código fuente del API desarrollado en Spring Boot.
-- Documentación de la API, incluyendo rutas, parámetros y ejemplos de uso.
-- Pruebas unitarias y de integración para garantizar la calidad del código.
-
-**Plazo de Entrega:**
-El proyecto debe ser entregado en [indicar plazo] semanas a partir del inicio.
+- Código fuente del API desarrollado en Spring Boot. Scripts de base datos.
+  
+El proyecto debe ser entregado en [2 de Diciembre] a partir del inicio.
 
 
 
