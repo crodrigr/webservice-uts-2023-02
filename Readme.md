@@ -1,6 +1,6 @@
 # Curso Spring  Boot 
   - [Relaciones jpa](https://www.adictosaltrabajo.com/2020/04/02/hibernate-onetoone-onetomany-manytoone-y-manytomany/)
-  - [Trabajo final corte III](https://github.com/crodrigr/webservice-uts-2023-02/blob/master/03_Corte_II/01_TrabajoFinal.md)
+  - [Trabajo final corte III-Entrega 2 de Diciembre](https://github.com/crodrigr/webservice-uts-2023-02/blob/master/03_Corte_II/01_TrabajoFinal.md)
 
 
 ## Fechas importantes
