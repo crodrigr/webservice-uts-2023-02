@@ -41,10 +41,8 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
    - Actualizar la información de una oficina existente.
    - Eliminar una oficina.   
 
-3. **Servicios de Gestión de Zonas de la Ciudad:**
-
    
-4. **Servicios de Gestión de Clientes:**
+3. **Servicios de Gestión de Clientes:**
 
    - Crear un nuevo cliente.
    - Actualizar la información de un cliente existente.
