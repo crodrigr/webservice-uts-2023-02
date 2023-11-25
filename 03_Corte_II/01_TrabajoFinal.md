@@ -39,8 +39,7 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 
    - Crear una nueva oficina.
    - Actualizar la información de una oficina existente.
-   - Eliminar una oficina.
-   - Obtener detalles de una oficina por su ubicación.
+   - Eliminar una oficina.   
 
 3. **Servicios de Gestión de Zonas de la Ciudad:**
 
