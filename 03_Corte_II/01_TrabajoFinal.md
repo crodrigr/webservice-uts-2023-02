@@ -31,11 +31,8 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 1. **Servicios de Gestión de Inmuebles:**
 
    - Crear un nuevo inmueble.
-   - Actualizar la información de un inmueble existente.
-   - Eliminar un inmueble.
    - Obtener detalles de un inmueble por su número de referencia.
-   - Listar inmuebles disponibles para venta o alquiler.
-   - Asignar una ubicación de llaves a un inmueble.
+   - Listar inmuebles disponibles para venta o alquiler.   
    - Registrar una visita a un inmueble.
 
 2. **Servicios de Gestión de Oficinas:**
@@ -47,19 +44,13 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 
 3. **Servicios de Gestión de Zonas de la Ciudad:**
 
-   - Crear una nueva zona de la ciudad.
-   - Actualizar la información de una zona existente.
-   - Eliminar una zona de la ciudad.
-   - Obtener detalles de una zona de la ciudad.
-
+   
 4. **Servicios de Gestión de Clientes:**
 
    - Crear un nuevo cliente.
    - Actualizar la información de un cliente existente.
    - Eliminar un cliente.
-   - Obtener detalles de un cliente por su identificación.
-   - Listar clientes que han realizado visitas.
-
+   
 
 **Tecnologías Utilizadas:**
 - Spring Boot para el desarrollo del API RESTful.
