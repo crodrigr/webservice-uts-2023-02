@@ -46,7 +46,7 @@ La agencia inmobiliaria necesita una solución eficiente para gestionar la infor
 
    - Crear un nuevo cliente.
    - Actualizar la información de un cliente existente.
-   - Eliminar un cliente.
+  
    
 
 **Tecnologías Utilizadas:**
